@@ -170,31 +170,31 @@ function trocarAcorde(){
 
         //Maiores Acordes
         if(numAcorde == 1){
-            AcordeImg.src="img/Acordes-Maiores/Do-Maior.jpeg"
+            AcordeImg.src="Do-Maior.jpeg"
             AcordeNome.innerHTML="Dó Maior"
         }
         if(numAcorde == 2){
-            AcordeImg.src="img/Acordes-Maiores/Fa-Maior.jpeg"
+            AcordeImg.src="Fa-Maior.jpeg"
             AcordeNome.innerHTML="Fá Maior"
         }
         if(numAcorde == 3){
-            AcordeImg.src="img/Acordes-Maiores/La-Maior.jpg"
+            AcordeImg.src="La-Maior.jpg"
             AcordeNome.innerHTML="Lá Maior"
         }
         if(numAcorde == 4){
-            AcordeImg.src="img/Acordes-Maiores/Mi-Maior.webp"
+            AcordeImg.src="Mi-Maior.webp"
             AcordeNome.innerHTML="Mi Maior"
         }
         if(numAcorde == 5){
-            AcordeImg.src="img/Acordes-Maiores/Re-Maior.jpg"
+            AcordeImg.src="Re-Maior.jpg"
             AcordeNome.innerHTML="Ré Maior"
         }
         if(numAcorde == 6){
-            AcordeImg.src="img/Acordes-Maiores/Si-Maior.jpeg"
+            AcordeImg.src="Si-Maior.jpeg"
             AcordeNome.innerHTML="Si Maior"
         }
         if(numAcorde == 7){
-            AcordeImg.src="img/Acordes-Maiores/Sol-Maior.jpg"
+            AcordeImg.src="Sol-Maior.jpg"
             AcordeNome.innerHTML="Sol Maior"
         }
         AcordeImg.width=225
@@ -205,34 +205,37 @@ function trocarAcorde(){
         console.log(numAcorde)
 
         if(numAcorde == 8){
-            AcordeImg.src="img/Acordes-Menores/Do-Menor.png"
+            AcordeImg.src="Do-Menor.png"
             AcordeNome.innerHTML="Dó Menor"
         }
         if(numAcorde == 9){
-            AcordeImg.src="img/Acordes-Menores/Fa-Menor.png"
+            AcordeImg.src="Fa-Menor.png"
             AcordeNome.innerHTML="Fá Menor"
         }
         if(numAcorde == 10){
-            AcordeImg.src="img/Acordes-Menores/La-Menor.png"
+            AcordeImg.src="La-Menor.png"
             AcordeNome.innerHTML="Lá Menor"
         }
         if(numAcorde == 11){
-            AcordeImg.src="img/Acordes-Menores/Mi-Menor.png"
+            AcordeImg.src="Mi-Menor.png"
             AcordeNome.innerHTML="Mi Menor"
         }
         if(numAcorde == 12){
-            AcordeImg.src="img/Acordes-Menores/Re-Menor.png"
+            AcordeImg.src="Re-Menor.png"
             AcordeNome.innerHTML="Ré Menor"
         }
         if(numAcorde == 13){
-            AcordeImg.src="img/Acordes-Menores/Si-Menor.png"
+            AcordeImg.src="Si-Menor.png"
             AcordeNome.innerHTML="Si Menor"
         }
         if(numAcorde == 14){
-            AcordeImg.src="img/Acordes-Menores/Sol-Menor.png"
+            AcordeImg.src="Sol-Menor.png"
             AcordeNome.innerHTML="Sol Menor"
 
         }
+        AcordeImg.width=225
+        AcordeImg.height=200
+        return
     }
 
 }   
